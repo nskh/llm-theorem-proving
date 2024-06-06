@@ -1,0 +1,43 @@
+# Coq compilation files
+*.vo*
+*.glob
+
+# Compiled and intermediate files
+*.v.d
+*.v.o
+*.v.beautified
+
+# Temporary files
+*~
+*.bak
+
+# Dune build directories (if using Dune as the build system)
+_build/
+
+# Coqdoc generated documentation
+*.html
+*.css
+*.js
+*.png
+
+# Logs and temporary files created by the editor
+*.log
+*.aux
+*.temp
+
+# VSCode and other editor directories
+.vscode/
+.idea/
+*.swp
+
+# Emacs backup files
+.#*
+.*.swp
+*.swo
+*.swp
+*~
+
+# Coq project-specific directories
+.coq-native/
+.coq/
+
